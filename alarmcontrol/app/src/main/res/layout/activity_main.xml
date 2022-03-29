@@ -24,21 +24,30 @@
             android:id="@+id/btn_connect"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/teal_700"
             android:text="1. 장치와 연결 또는 페어링하기"
+            android:textColor="@color/white"
             android:textStyle="bold" />
 
         <Button
             android:id="@+id/btn_state"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/teal_700"
             android:text="2. 장치와 연결 상태 확인하기"
+            android:textColor="@color/white"
             android:textStyle="bold" />
 
         <Button
             android:id="@+id/btn_setting"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/teal_700"
             android:text="3. 알람 울릴 시간 설정하기"
+            android:textColor="@color/white"
             android:textStyle="bold" />
     </LinearLayout>
 
