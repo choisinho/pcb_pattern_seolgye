@@ -92,6 +92,40 @@ GenerateClassCluster=0
 DocumentUniqueId=PAYDOYTC
 
 [Document4]
+DocumentPath=..\..\..\..\..\..\Public\Documents\Altium\AD21\Library\Miscellaneous+Connectors.IntLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document5]
+DocumentPath=..\..\..\..\..\..\Public\Documents\Altium\AD21\Library\Miscellaneous+Devices.IntLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document6]
 DocumentPath=PICO_sch.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -108,7 +142,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OJUTBJQS
 
-[Document5]
+[Document7]
 DocumentPath=PICO_pcb.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -125,7 +159,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YLQLLWDE
 
-[Document6]
+[Document8]
 DocumentPath=PvLib1.PvLib
 AnnotationEnabled=1
 AnnotateStartValue=1
