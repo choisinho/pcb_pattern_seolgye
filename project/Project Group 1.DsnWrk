@@ -1,0 +1,12 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=2ban_PCB_Project\2ban_PCB_Project.PrjPcb
+[Project2]
+ProjectPath=PCB_Project\PCB_Project.PrjPcb
+[Project3]
+ProjectPath=PCB_Project_2ban\PCB_Project_2ban.PrjPcb
+[Project4]
+ProjectPath=smartalarm\smartalarm.PrjPcb
+[Project5]
+ProjectPath=smartalarm\BLUETOOTH-SERIAL-HC-06.LibPkg
