@@ -41,6 +41,23 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=..\PCB_Project_2ban\PCB1.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=NLKGVNPO
+
+[Document2]
 DocumentPath=MCU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -57,7 +74,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SZJAQKCR
 
-[Document2]
+[Document3]
 DocumentPath=pico_2ban.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -74,7 +91,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GYLMBMMK
 
-[Document3]
+[Document4]
 DocumentPath=PICO_PCB_2ban.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -91,7 +108,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PAYDOYTC
 
-[Document4]
+[Document5]
 DocumentPath=..\..\..\..\..\..\Public\Documents\Altium\AD21\Library\Miscellaneous+Connectors.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -108,7 +125,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document5]
+[Document6]
 DocumentPath=..\..\..\..\..\..\Public\Documents\Altium\AD21\Library\Miscellaneous+Devices.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -125,7 +142,24 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document6]
+[Document7]
+DocumentPath=L298N.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=JVHTISAB
+
+[Document8]
 DocumentPath=PICO_sch.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -142,7 +176,24 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OJUTBJQS
 
-[Document7]
+[Document9]
+DocumentPath=L298N.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=GMIVLSFD
+
+[Document10]
 DocumentPath=PICO_pcb.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -159,7 +210,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YLQLLWDE
 
-[Document8]
+[Document11]
 DocumentPath=PvLib1.PvLib
 AnnotationEnabled=1
 AnnotateStartValue=1

@@ -10,3 +10,5 @@ ProjectPath=PCB_Project_2ban\PCB_Project_2ban.PrjPcb
 ProjectPath=smartalarm\smartalarm.PrjPcb
 [Project5]
 ProjectPath=smartalarm\BLUETOOTH-SERIAL-HC-06.LibPkg
+[Project6]
+ProjectPath=2ban_PCB_Project\L298N.LibPkg
