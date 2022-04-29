@@ -160,7 +160,7 @@ GenerateClassCluster=0
 DocumentUniqueId=GMIVLSFD
 
 [Document8]
-DocumentPath=PICO_pcb.PcbLib
+DocumentPath=MouseBoard_pcb.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -1183,6 +1183,15 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+
+[NetInfos]
+Net1=NetName=LT left rx|NetColor=$006EFF6E
+Net2=NetName=LT left sensor rx|NetColor=$006EFF6E
+Net3=NetName=LT right rx|NetColor=$00FF6EFF
+Net4=NetName=LT right sensor rx|NetColor=$00FF6EFF
+Net5=NetName=NetU1_24|NetColor=$00FF6EFF
+Net6=NetName=NetU1_25|NetColor=$006EFF6E
+Net7=NetName=VCC|NetColor=$006E6EFF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
