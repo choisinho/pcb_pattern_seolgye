@@ -108,16 +108,31 @@ public class MainActivity extends AppCompatActivity {
         btnState.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                if (isBluetoothReady()) {
+                    new AlertDialog.Builder(MainActivity.this)
+                            .setMessage("블루투스 상태는 문제가 없습니다.")
+                            .setPositiveButton("다음", null).show();
+                    if (isConnected) {
+                        new AlertDialog.Builder(MainActivity.this)
+                                .setMessage("장치와 정상적으로 연결되었습니다.")
+                                .setPositiveButton("확인", null).show();
+                    } else {
+                        new AlertDialog.Builder(MainActivity.this)
+                                .setMessage("장치와 연결되어 있지 않습니다.")
+                                .setPositiveButton("확인", null).show();
+                    }
+                } else {
+                    new AlertDialog.Builder(MainActivity.this)
+                            .setMessage("블루투스에 대하여 문제가 발생했습니다.")
+                            .setPositiveButton("확인", null).show();
+                }
             }
         });
         btnSetting.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (isConnected) {
-                    //알람 설정하기
-                } else {
-                    
+                if (isBluetoothReady()) {
+
                 }
             }
         });
