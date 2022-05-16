@@ -14,6 +14,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
 
 import app.akexorcist.bluetotohspp.library.BluetoothSPP;
@@ -132,7 +133,29 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (isBluetoothReady()) {
-
+                    //시간 입력받기 (최대 60분)
+                    final EditText input = new EditText(MainActivity.this);
+                    AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+                    builder.setMessage("최대 60분까지 타이머를 설정할 수 있습니다. 숫자만 입력해주세요.")
+                            .setView(input)
+                            .setPositiveButton("확인", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialogInterface, int i) {
+                                    try {
+                                        final int min = Integer.parseInt(input.getText().toString());
+                                        //min을 장치에게 전송
+                                    } catch (Exception e) {
+                                        Toast.makeText(MainActivity.this, "입력한 데이터가 잘못되었습니다.", Toast.LENGTH_SHORT).show();
+                                    }
+                                }
+                            })
+                            .setNegativeButton("취소", null);
+                    AlertDialog alertDialog = builder.create();
+                    alertDialog.show();
+                } else {
+                    new AlertDialog.Builder(MainActivity.this)
+                            .setMessage("블루투스에 대하여 문제가 발생했습니다.")
+                            .setPositiveButton("확인", null).show();
                 }
             }
         });
