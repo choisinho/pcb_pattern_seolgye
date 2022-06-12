@@ -1,0 +1,5 @@
+Added Pin To Net: NetName=NRESET Pin=P5-2
+Added Pin To Net: NetName=NRESET Pin=R1-1
+Added Pin To Net: NetName=BUZZER Pin=U1-5
+Added Member To Class: ClassName=CPUCUIT Member=Component P0 Header 8
+Added Room: Name=CPUCUIT
